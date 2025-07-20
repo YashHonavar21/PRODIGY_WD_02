@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&height=900&width=1600&fit=bounds') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.stopwatch-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px red;
+  text-align: center;
+  max-width: 420px;
+  width: 90%;
+  backdrop-filter: blur(8px);
+  border: 2px solid red;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+
+#display {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 8px red;
+}
+
+.controls button {
+  background: transparent;
+  border: 2px solid red;
+  color: white;
+  padding: 10px 20px;
+  margin: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px red;
+}
+
+.controls button:hover {
+  background-color: red;
+  color: #fff;
+  box-shadow: 0 0 20px red;
+}
+
+#laps {
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  color: #fff;
+}
+
+.lap {
+  background: rgba(255, 0, 0, 0.2);
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  border-left: 4px solid red;
+  font-size: 1rem;
+}
